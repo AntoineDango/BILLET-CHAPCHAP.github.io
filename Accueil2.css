@@ -1,0 +1,135 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(./MAQUETTE/PICTURE2.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+}
+/*entete*/
+img{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: -20px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    background-image: linear-gradient(BLACK,WHITE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul li{
+    list-style: none;
+    position: relative;
+    left: 10%;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nul{
+    position: relative;
+    top: -25px;
+    left: -49%;
+    color: white;
+    font-size: 22px;
+}
+.ONE{
+    position: relative;
+    top: 38px;
+    left: 15%;
+}
+.TWO{
+    position: relative;
+    top: 38px;
+    left: 52.5%;
+}
+.THREE{
+    position: relative;
+    top: 38px;
+    left: 90%;
+}
+/*pieds de page*/
+footer{
+    position: absolute;
+    top: 1000px;
+    background-color: blueviolet;
+    width: 266%;
+    display: inline-block;
+    text-align: center;
+    left: -5%;
+}
+
+
+@media only screen and (max-width: 280px) {
+    /* Ajoutez ici vos styles CSS pour les écrans plus petits */
+  }
+ 
+  
+
+  
+  /* Styles pour les écrans entre 600px et 900px de large */
+  @media only screen and (min-width: 280px) and (max-width: 900px) {
+    /* Ajoutez ici vos styles CSS pour les écrans de taille moyenne */
+    body{
+        position: fixed;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+        left: 0%;
+      }
+      .nul{
+        position: relative;
+        font-size: 9px;
+        max-width: 100%;
+        top: -25px;
+        left: -50%;
+
+      }
+      ul li a{
+        position: relative;
+        font-size: 9px;
+      }
+      .ONE{
+        position: relative;
+        top: 2px;
+        left: 0%;
+    }
+    .TWO{
+        position: relative;
+        top: 2px;
+        left: 20%;
+    }
+    .THREE{
+        position: relative;
+        top: 2px;
+        left: 40%;
+        max-width: 100%;
+    }
+    footer{
+        position: absolute;
+        top: 524px;
+        background-color: blueviolet;
+        display: inline-block;
+        text-align: center;
+        left: -3%;
+        font-size: 13px;
+        width: 220%;
+        
+    }
+   
+   
+}
+  
+  /* Styles pour les écrans plus grands que 900px de large */
+  @media only screen and (min-width: 900px) {
+    /* Ajoutez ici vos styles CSS pour les grands écrans */
+   
+  }
+  
+  
